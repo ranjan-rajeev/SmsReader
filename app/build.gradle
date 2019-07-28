@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.horizonlabs.smsreader"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    def room_version = "2.0.0" // 2.1.0 for latest stable version
+
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-beta01'
+    // Architecture components
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0-alpha02'
+    // Room SQLite for data persistence
+    implementation 'androidx.room:room-runtime:2.2.0-alpha01'
+    annotationProcessor 'androidx.room:room-compiler:2.2.0-alpha01'
+
+}

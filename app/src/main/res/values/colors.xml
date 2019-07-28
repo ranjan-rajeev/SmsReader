@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4eb587</color>
+    <color name="colorPrimaryDark">#4eb587</color>
+    <color name="colorAccent">#92cb89</color>
+
+    <color name="bg">#c9c5c5</color>
+    <color name="dashboard_bg">#e3e3e3</color>
+    <color name="dashboard_header">#696969</color>
+    <color name="dashboard_title">#3a4147</color>
+    <color name="bg1">#ededed</color>
+    <color name="bg2">#c9c9c9</color>
+    <color name="header_text_color">#696969</color>
+    <color name="header_text_color1">#3c4651</color>
+    <color name="secondary_text_color">#9ba0a6</color>
+    <color name="tab_color">#00476e</color>
+    <color name="button_color">@color/colorPrimary</color>
+    <color name="bg_light">#eaeff7</color>
+    <color name="blue">#005faf</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="red_text">#fe5e63</color>
+    <color name="red_descent">#de6d75</color>
+    <color name="hdr_white">#f0f0f0</color>
+    <color name="bg_white">#f1f1f1</color>
+    <color name="seperator_white">#dadada</color>
+    <color name="bg_popup">#f7f7f7</color>
+    <color name="progress_blue">#009fe3</color>
+    <color name="progress_grey">#cecece</color>
+    <color name="term_background">#deedf4</color>
+
+    <!--mintpro-->
+    <color name="background">#FFEFF3F6</color>
+    <color name="header_dark_text">#5D5C5D</color>
+    <color name="header_light_text">#6A6F71</color>
+    <color name="description_text">#929292</color>
+    <color name="seperator">#E1DEDE</color>
+    <color name="search_gray">#bcbcbc</color>
+    <color name="black">#212121</color>
+    <!--RBA-->
+    <color name="white">#ffffff</color>
+    <color name="lightGrey">#E0E0E0</color>
+    <color name="text_edit_color">#868686</color>
+    <color name="filter_bar_title_selected">#5a5a5a</color>
+    <color name="back_button_color">#5a5a5a</color>
+    <color name="buttonBackground">#ee5e35</color>
+    <color name="green_descent">#42ceb2</color>
+    <color name="offer_info_white">#DDFFFFFF</color>
+    <color name="alpha_white">#26ffffff</color>
+    <!--vector colors-->
+    <!--<color name="vector_blue">#11408b</color>-->
+    <color name="vector_blue">#646566</color>
+
+    <!--region inspect-->
+    <!--<color name="background">#e6e6e6</color>-->
+    <color name="application_primary_text_color">#212121</color>
+    <color name="darkBlue">#1565c0</color>
+    <color name="lightBlue">#3ab2d4</color>
+    <!--<color name="white">#FFFFFF</color>-->
+    <color name="blue_descent">#4b76c2</color>
+    <color name="red_nav">#D3332B</color>
+    <color name="uvv_green">#ff50b100</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_gray">#ffbbbbbb</color>
+    <color name="edittext_border">#cfcfcf</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+    <color name="colorPrimary_inspect">#3F51B5</color>
+    <color name="colorPrimaryDark_inspect">#303F9F</color>
+    <color name="colorAccent_inspect">#FF4081</color>
+
+
+    <!--region posp-->
+    <color name="colorPrimary_posp">#a91111</color>
+    <color name="colorPrimaryDark_posp">#be2513</color>
+    <color name="primary_light">#D0991000</color>
+    <color name="colorAccent_posp">#00796B</color>
+    <!--<color name="application_primary_text_color">#212121</color>-->
+    <color name="application_secondary_text_color">#757575</color>
+</resources>
